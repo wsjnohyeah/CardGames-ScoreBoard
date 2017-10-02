@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2959401E802EFB002DB703 /* LanguageKeyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29593F1E802EFB002DB703 /* LanguageKeyStrings.swift */; };
+		AA566C2B1E7154F300404DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA566C2A1E7154F300404DBF /* AppDelegate.swift */; };
+		AA566C3E1E71555000404DBF /* GameConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA566C3D1E71555000404DBF /* GameConfigureViewController.swift */; };
+		AA5F80D91E745A33003E9BB7 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F80D81E745A33003E9BB7 /* RecordTableViewController.swift */; };
+		AA984E451E745074003324E3 /* GameRoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984E441E745074003324E3 /* GameRoundViewController.swift */; };
+		AA984E471E74508D003324E3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984E461E74508D003324E3 /* Game.swift */; };
+		AAB330811E8047AA00627ED5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB330831E8047AA00627ED5 /* InfoPlist.strings */; };
+		AAB330871E804B7000627ED5 /* GameHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB330861E804B7000627ED5 /* GameHistoryTableViewController.swift */; };
+		AAB3308D1E8162AD00627ED5 /* GameNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3308C1E8162AD00627ED5 /* GameNameTableViewController.swift */; };
+		AAC193DF1E80418800E414E2 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC193DE1E80418800E414E2 /* TextFieldTableViewCell.swift */; };
+		AAC193EF1E8043A800E414E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA566C311E7154F300404DBF /* Assets.xcassets */; };
+		AAC193F01E8043C000E414E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA566C331E7154F300404DBF /* LaunchScreen.storyboard */; };
+		AAC193F21E80442900E414E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2959371E802C6B002DB703 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA2959361E802C6B002DB703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA29593F1E802EFB002DB703 /* LanguageKeyStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageKeyStrings.swift; sourceTree = "<group>"; };
+		AA566C271E7154F300404DBF /* CardGames ScoreBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardGames ScoreBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA566C2A1E7154F300404DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA566C311E7154F300404DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA566C341E7154F300404DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA566C3D1E71555000404DBF /* GameConfigureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConfigureViewController.swift; sourceTree = "<group>"; };
+		AA5F80D81E745A33003E9BB7 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		AA984E441E745074003324E3 /* GameRoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRoundViewController.swift; sourceTree = "<group>"; };
+		AA984E461E74508D003324E3 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		AAB3307D1E80475C00627ED5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB330821E8047AA00627ED5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		AAB330841E8047AD00627ED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB330851E8047F100627ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB330861E804B7000627ED5 /* GameHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHistoryTableViewController.swift; sourceTree = "<group>"; };
+		AAB3308C1E8162AD00627ED5 /* GameNameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameNameTableViewController.swift; sourceTree = "<group>"; };
+		AAC193DE1E80418800E414E2 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		AAC372241E81870D00C8B83F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		AAC372261E81871200C8B83F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA566C241E7154F300404DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA566C1E1E7154F300404DBF = {
+			isa = PBXGroup;
+			children = (
+				AA566C291E7154F300404DBF /* CardGames ScoreBoard */,
+				AA566C281E7154F300404DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA566C281E7154F300404DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA566C271E7154F300404DBF /* CardGames ScoreBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA566C291E7154F300404DBF /* CardGames ScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AA2959371E802C6B002DB703 /* Main.storyboard */,
+				AAB3308C1E8162AD00627ED5 /* GameNameTableViewController.swift */,
+				AAB330861E804B7000627ED5 /* GameHistoryTableViewController.swift */,
+				AA5F80D81E745A33003E9BB7 /* RecordTableViewController.swift */,
+				AA566C3D1E71555000404DBF /* GameConfigureViewController.swift */,
+				AAC193DE1E80418800E414E2 /* TextFieldTableViewCell.swift */,
+				AA984E441E745074003324E3 /* GameRoundViewController.swift */,
+				AA984E461E74508D003324E3 /* Game.swift */,
+				AA29593F1E802EFB002DB703 /* LanguageKeyStrings.swift */,
+				AA566C3C1E71551800404DBF /* Supporting Files */,
+			);
+			name = "CardGames ScoreBoard";
+			path = "Texus Holdem logger";
+			sourceTree = "<group>";
+		};
+		AA566C3C1E71551800404DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA566C2A1E7154F300404DBF /* AppDelegate.swift */,
+				AA566C311E7154F300404DBF /* Assets.xcassets */,
+				AA566C331E7154F300404DBF /* LaunchScreen.storyboard */,
+				AAB3307D1E80475C00627ED5 /* Info.plist */,
+				AAB330831E8047AA00627ED5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA566C261E7154F300404DBF /* CardGames ScoreBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA566C391E7154F300404DBF /* Build configuration list for PBXNativeTarget "CardGames ScoreBoard" */;
+			buildPhases = (
+				AA566C231E7154F300404DBF /* Sources */,
+				AA566C241E7154F300404DBF /* Frameworks */,
+				AA566C251E7154F300404DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardGames ScoreBoard";
+			productName = "Texus Holdem logger";
+			productReference = AA566C271E7154F300404DBF /* CardGames ScoreBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA566C1F1E7154F300404DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ethan Hu";
+				TargetAttributes = {
+					AA566C261E7154F300404DBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G587YS67MU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA566C221E7154F300404DBF /* Build configuration list for PBXProject "CardGames ScoreBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+				en,
+			);
+			mainGroup = AA566C1E1E7154F300404DBF;
+			productRefGroup = AA566C281E7154F300404DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA566C261E7154F300404DBF /* CardGames ScoreBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA566C251E7154F300404DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC193F21E80442900E414E2 /* Main.storyboard in Resources */,
+				AAB330811E8047AA00627ED5 /* InfoPlist.strings in Resources */,
+				AAC193F01E8043C000E414E2 /* LaunchScreen.storyboard in Resources */,
+				AAC193EF1E8043A800E414E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA566C231E7154F300404DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA984E451E745074003324E3 /* GameRoundViewController.swift in Sources */,
+				AA566C2B1E7154F300404DBF /* AppDelegate.swift in Sources */,
+				AAB330871E804B7000627ED5 /* GameHistoryTableViewController.swift in Sources */,
+				AAB3308D1E8162AD00627ED5 /* GameNameTableViewController.swift in Sources */,
+				AAC193DF1E80418800E414E2 /* TextFieldTableViewCell.swift in Sources */,
+				AA984E471E74508D003324E3 /* Game.swift in Sources */,
+				AA5F80D91E745A33003E9BB7 /* RecordTableViewController.swift in Sources */,
+				AA2959401E802EFB002DB703 /* LanguageKeyStrings.swift in Sources */,
+				AA566C3E1E71555000404DBF /* GameConfigureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA2959371E802C6B002DB703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2959361E802C6B002DB703 /* Base */,
+				AAC372241E81870D00C8B83F /* zh-Hans */,
+				AAC372261E81871200C8B83F /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA566C331E7154F300404DBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA566C341E7154F300404DBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB330831E8047AA00627ED5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB330821E8047AA00627ED5 /* zh-Hans */,
+				AAB330841E8047AD00627ED5 /* en */,
+				AAB330851E8047F100627ED5 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA566C371E7154F300404DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA566C381E7154F300404DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA566C3A1E7154F300404DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G587YS67MU;
+				INFOPLIST_FILE = "Texus Holdem logger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanqc.hu.Poker-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA566C3B1E7154F300404DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G587YS67MU;
+				INFOPLIST_FILE = "Texus Holdem logger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanqc.hu.Poker-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA566C221E7154F300404DBF /* Build configuration list for PBXProject "CardGames ScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA566C371E7154F300404DBF /* Debug */,
+				AA566C381E7154F300404DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA566C391E7154F300404DBF /* Build configuration list for PBXNativeTarget "CardGames ScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA566C3A1E7154F300404DBF /* Debug */,
+				AA566C3B1E7154F300404DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA566C1F1E7154F300404DBF /* Project object */;
+}

@@ -1,0 +1,75 @@
+
+/* Class = "UIBarButtonItem"; title = "新游戏"; ObjectID = "2Ce-7s-TuP"; */
+"2Ce-7s-TuP.title" = "新游戏";
+
+/* Class = "UIBarButtonItem"; title = "查看记录"; ObjectID = "2uA-oP-NkS"; */
+"2uA-oP-NkS.title" = "查看记录";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "5nM-Uz-gmB"; */
+"5nM-Uz-gmB.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "71a-4m-oYu"; */
+"71a-4m-oYu.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "游戏记录"; ObjectID = "7Dc-WA-dvK"; */
+"7Dc-WA-dvK.title" = "游戏记录";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7yK-Ak-DjE"; */
+"7yK-Ak-DjE.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "8lP-RZ-Oe8"; */
+"8lP-RZ-Oe8.title" = "取消";
+
+/* Class = "UIBarButtonItem"; title = "下一轮"; ObjectID = "Iuq-4q-9Xo"; */
+"Iuq-4q-9Xo.title" = "下一轮";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "KQb-kV-Kze"; */
+"KQb-kV-Kze.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "确认信息"; ObjectID = "LuK-fo-UBS"; */
+"LuK-fo-UBS.title" = "确认信息";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MCg-FJ-Myz"; */
+"MCg-FJ-Myz.text" = "Title";
+
+/* Class = "UITableViewSection"; headerTitle = "给这盘游戏取个名吧！"; ObjectID = "Oy3-cD-sJi"; */
+"Oy3-cD-sJi.headerTitle" = "给这盘游戏取个名吧！";
+
+/* Class = "UILabel"; text = "结束游戏"; ObjectID = "Pso-UW-9Ve"; */
+"Pso-UW-9Ve.text" = "结束游戏";
+
+/* Class = "UITextField"; placeholder = "未设置"; ObjectID = "QvN-Ju-gBh"; */
+"QvN-Ju-gBh.placeholder" = "未设置";
+
+/* Class = "UITextField"; placeholder = "游戏名"; ObjectID = "S5r-Dt-WPd"; */
+"S5r-Dt-WPd.placeholder" = "游戏名";
+
+/* Class = "UIBarButtonItem"; title = "开始游戏"; ObjectID = "VQx-o5-gcX"; */
+"VQx-o5-gcX.title" = "开始游戏";
+
+/* Class = "UITextField"; placeholder = "未设置"; ObjectID = "emh-4A-q7f"; */
+"emh-4A-q7f.placeholder" = "未设置";
+
+/* Class = "UILabel"; text = "结束游戏"; ObjectID = "fKK-wG-HE0"; */
+"fKK-wG-HE0.text" = "结束游戏";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "g8I-GS-xXz"; */
+"g8I-GS-xXz.text" = "Detail";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gbo-qf-iNi"; */
+"gbo-qf-iNi.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hL3-99-Idk"; */
+"hL3-99-Idk.text" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "q33-aQ-7vx"; */
+"q33-aQ-7vx.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "游戏配置"; ObjectID = "tZB-yd-nkm"; */
+"tZB-yd-nkm.title" = "游戏配置";
+
+/* Class = "UITableViewSection"; headerTitle = "确认结束吗？"; ObjectID = "uNq-oB-qTn"; */
+"uNq-oB-qTn.headerTitle" = "确认结束吗？";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "wey-u2-bgH"; */
+"wey-u2-bgH.title" = "返回";

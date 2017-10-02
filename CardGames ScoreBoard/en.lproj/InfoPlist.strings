@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  Poker Log
+
+  Created by Ethan Hu on 21/03/2017.
+  Copyright © 2017 Ethan Hu. All rights reserved.
+*/
+CFBundleDisplayName = "CScoreBoard";
